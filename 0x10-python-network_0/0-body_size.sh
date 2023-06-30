@@ -1,4 +1,5 @@
 #!/bin/bash
-# Displays the size of the body response
-
-curl -sI $1 | grep -i Content-Length | awk '{print $2}'
+# Takes in a URL, sends a request to that URL, and displays the size of the body of the respon
+url=$1
+size=$(curl -I $url )
+echo $size
