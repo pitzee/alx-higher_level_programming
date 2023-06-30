@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 """script for testing status of web pages
 """
 if __name__ == "__main__":
